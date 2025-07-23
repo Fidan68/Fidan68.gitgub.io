@@ -1,39 +1,80 @@
-# Fidan68.gitgub.io
-Travel
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fidan's Travel Tips</title>
-  <link rel="stylesheet" href="styles/main.css">
+  <title>5 дней на Майорке</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, #f0faff, #ffffff);
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      color: #0077cc;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #0077cc;
+      color: white;
+      padding: 12px 20px;
+      margin: 10px 5px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #005fa3;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Fidan's Travel Tips</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="blog.html">Blog</a>
-      <a href="locations.html">Locations</a>
-      <a href="tours.html">Tours & Deals</a>
-      <a href="about.html">About</a>
-    </nav>
-  </header>
-  <main>
-    <section>
-      <h2>Welcome!</h2>
-      <p>Explore travel tips, destination guides, and exclusive tour deals. Start planning your next adventure!</p>
-    </section>
-    <section>
-      <h3>Latest Blog Posts</h3>
-      <ul>
-        <li><a href="blog.html#packing">Top Packing Tips for Any Trip</a></li>
-        <li><a href="blog.html#budget">How to Travel on a Budget</a></li>
-      </ul>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2025 Fidan's Travel Tips</p>
-  </footer>
+
+<header>
+  <h1>Путешествие на Майорку</h1>
+  <p>5 дней у моря • Пляжи • Солнце • Отдых</p>
+</header>
+
+<div class="container">
+  <h2>Что входит:</h2>
+  <ul>
+    <li>✈️ Перелёт туда и обратно</li>
+    <li>🏨 4 ночи в уютном отеле</li>
+    <li>🍽️ Завтраки включены</li>
+    <li>🌅 Пляжи, экскурсии, аренда скутеров</li>
+  </ul>
+
+  <p><strong>Всего от 499 €</strong></p>
+
+  <a class="btn" href="https://tp.media/r?marker=123456&click_id=flight" target="_blank">✈️ Купить билет</a>
+  <a class="btn" href="https://tp.media/r?marker=123456&click_id=hotel" target="_blank">🏨 Забронировать отель</a>
+</div>
+
 </body>
 </html>
